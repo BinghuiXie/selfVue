@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <div>
+            <input type="text" placeholder="输入文本" v-model="name">
+            <input type="text" placeholder="输入文本" v-model="age">
+            <input type="text" v-model="possession.phone">
+            <span>名字</span>
+            <p>姓名：{{name}}</p>
+            <p>年龄：{{age}}</p>
+            <p>地址：{{address}}</p>
+            <p>电话：{{possession.phone}}</p>
+        </div>
+    </div>
+</body>
+</html>
